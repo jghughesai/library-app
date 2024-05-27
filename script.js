@@ -33,7 +33,7 @@ submitBtn.addEventListener("click", (e) => {
     
     if (result.charAt(result.length -2) === ",") {
         let index = result.length - 2;
-        result = result.slice(0, index)
+        result = result.slice(0, index);
     }
 
     myLibrary.push(result);
