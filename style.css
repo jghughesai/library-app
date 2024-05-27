@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.main-content {
+    background-color: salmon;
+}
