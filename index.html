@@ -8,6 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h1>Wan Shi Tong's Libary</h1>
+        </div>
+        <div class="main-content">
+            <div class="content-container">
+                <button type="button" id="addBtn"><img src="images/plus.svg" alt="add" height="50px"></button>
+                <div class="library">
+                    <ol class="library-header">
+                        <li>Title</li>
+                        <li>Author</li>
+                        <li>Number of Pages</li>
+                        <li>Has been read?</li>
+                    </ol>
+                    <div class="card">
+                        <p>Lord of the rings</p>
+                        <p>JRR Tolkien</p>
+                        <p>888</p>
+                        <p>Yes</p>
+                    </div>
+                    <div class="card">
+                        <p>Hobbit</p>
+                        <p>JRR Tolkien</p>
+                        <p>338</p>
+                        <p>Yes</p>
+                    </div>
+                </div>
+            </div>
+            <dialog>
+                <form class="form-container">
+                    <label for="title">Enter book title</label>
+                    <input type="text" id="title" class="input details">
+                    <label for="author">Enter author</label>
+                    <input type="text" id="author" class="input details">
+                    <label for="pages">Enter number of pages</label>
+                    <input type="text" id="pages" class="input details">
+                    <label for="readYet">Has the book been read yet?</label>
+                    <input type="text" id="readYet" class="input details">
+                    <button type="submit" id="submitBtn">Add book</button>
+                </form>
+            </dialog>
+        </div>
+    </div>
 </body>
 </html>
